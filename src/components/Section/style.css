@@ -1,0 +1,25 @@
+.section {
+  width: 100vw;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f9c74f;
+}
+
+.btn-category {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-weight: 500;
+  margin-left: 3rem;
+
+  font-family: "Fortela Typeface", sans-serif;
+  text-decoration: none;
+}
+
+.btn-category:hover {
+  color: #ff6d00;
+}

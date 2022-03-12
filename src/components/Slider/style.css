@@ -1,0 +1,12 @@
+.slider {
+  width: 100vw;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel img {
+  object-fit: cover;
+  max-height: 90vh;
+}

@@ -1,0 +1,83 @@
+* {
+  font-family: "Fortela Typeface", sans-serif;
+  font-weight: 500;
+}
+
+.app_nav {
+  width: 100vw;
+  height: 5rem;
+
+  display: flex;
+}
+
+.app_nav-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.app_nav-left img {
+  width: 4.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.app_nav-left p {
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  margin-top: 1rem;
+}
+
+.app_nav-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app_nav-center a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.app_nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.app_nav-right ul {
+  width: 75%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.app_nav-right ul > li {
+  display: flex;
+  flex: 1;
+  height: 80%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  transition: all 0.5s ease;
+}
+
+.app_nav-right ul > li:hover .icon {
+  border-bottom: 1px solid black;
+}
