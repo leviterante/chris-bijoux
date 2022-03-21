@@ -1,0 +1,26 @@
+.newsletter {
+  width: 100vw;
+
+  background-color: #f9c74f;
+  border-bottom: 1px solid #ff6d00;
+  border-top: 1px solid #ff6d00;
+}
+
+.newsletter-title {
+  width: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.newsletter-title_text {
+  font-weight: 700;
+}
+
+.text-center {
+  background-color: transparent;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}

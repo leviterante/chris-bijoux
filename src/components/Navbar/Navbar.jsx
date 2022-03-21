@@ -8,9 +8,21 @@ import {
 import "./style.css";
 import { images } from "../../constants";
 
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-600px";
+  }
+  prevScrollpos = currentScrollPos;
+};
+
 const Navbar = () => {
   return (
-    <div className="app_nav">
+    <div className="app_nav" id="navbar">
       <div className="app_nav-left">
         <img src={images.logo_black} alt="Logo" />
         <p>Christine</p>

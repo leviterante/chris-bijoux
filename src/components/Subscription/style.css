@@ -1,0 +1,21 @@
+.subscription {
+  width: 100vw;
+  height: 30vh;
+}
+
+.subscription-title {
+  width: 100%;
+  margin: 2rem;
+  padding: 0 2rem;
+}
+
+.subscription-desc {
+  width: 100%;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.subscription-btn {
+  text-transform: uppercase;
+  margin-left: 4rem;
+}

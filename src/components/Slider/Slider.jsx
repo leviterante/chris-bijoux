@@ -9,7 +9,7 @@ const Slider = () => {
     <div className="slider">
       <div className="carousel">
         <Carousel fade>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src={images.slide4}
@@ -20,7 +20,7 @@ const Slider = () => {
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src={images.slide5}
@@ -32,7 +32,7 @@ const Slider = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={3000}>
+          <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src={images.slide2}

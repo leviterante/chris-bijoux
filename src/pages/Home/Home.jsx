@@ -1,6 +1,14 @@
 import React from "react";
 
-import { Navbar, Slider, Section } from "../../components";
+import {
+  Navbar,
+  Slider,
+  Section,
+  Highlights,
+  Newsletter,
+  Subscription,
+  Footer,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -8,6 +16,10 @@ const Home = () => {
       <Navbar />
       <Slider />
       <Section />
+      <Highlights />
+      <Newsletter />
+      <Subscription />
+      <Footer />
     </div>
   );
 };
